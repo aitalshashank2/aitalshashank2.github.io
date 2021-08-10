@@ -1,12 +1,12 @@
-import './App.css'
+import LandingComponent from "./landing/LandingComponent"
+import AboutComponent from "./about/AboutComponent"
 
 const App = () => {
     return (
-        <div className="container">
-            <div className="text-content">
-                SHASHANK AITAL
-            </div>
-        </div>
+        <>
+            <LandingComponent />
+            <AboutComponent />
+        </>
     )
 }
 

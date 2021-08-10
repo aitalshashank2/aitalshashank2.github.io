@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0 2em 0;
+}
+
+.textArea {
+    max-width: 1200px;
+    width: 100%;
+}
