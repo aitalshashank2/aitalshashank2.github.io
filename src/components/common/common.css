@@ -3,10 +3,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2em 0 2em 0;
 }
 
-.textArea {
+.text-area {
     max-width: 1200px;
     width: 100%;
+}
+
+.section-heading {
+    width: 100%;
+    text-align: center;
+    color: #E0AF02;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    .section-heading {
+        font-size: 28px;
+        letter-spacing: 10px;
+    }
 }

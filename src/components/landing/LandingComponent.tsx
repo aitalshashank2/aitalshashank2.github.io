@@ -21,7 +21,7 @@ const LandingComponent = () => {
     }, [])
 
     return (
-        <div style={{width: "100vw", overflow: "hidden", position: "relative"}}>
+        <div className="landingSuperContainer">
             <div className="bg" id="bg-circle">
             </div>
             <div className="landingContainer">
