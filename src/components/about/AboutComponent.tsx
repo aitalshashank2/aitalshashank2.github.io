@@ -1,5 +1,4 @@
 import './AboutComponent.css'
-import '../common/common.css'
 
 import profilePicture from '../../assets/profile_picture.jpeg'
 

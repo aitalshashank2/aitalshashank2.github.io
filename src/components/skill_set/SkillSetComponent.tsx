@@ -25,7 +25,7 @@ const SkillSetComponent = () => {
 
                             {languages.map((value, index) => {
                                 return (
-                                    <div className="chip">
+                                    <div className="chip" key={index}>
                                         {value}
                                     </div>
                                 )
@@ -41,7 +41,7 @@ const SkillSetComponent = () => {
 
                             {softwarePackages.map((value, index) => {
                                 return (
-                                    <div className="chip">
+                                    <div className="chip" key={index}>
                                         {value}
                                     </div>
                                 )
