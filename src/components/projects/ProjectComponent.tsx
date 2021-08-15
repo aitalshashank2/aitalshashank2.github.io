@@ -27,6 +27,11 @@ const ProjectComponent = () => {
             title: "ArxivApp",
             description: "ArxivApp gives a personalised experience to users while accessing research papers from arXiv. It allows the users to bookmark papers and also, write blogs on them. Users can rate the blogs and comment on them.",
             url: "https://github.com/aitalshashank2/ArxivAppBackend-Pro"
+        },
+        {
+            title: "Chronicles",
+            description: "Chronicles facilitates the process of testing a software for an organization. Testers can report bugs, assign it to another user and users can comment in real time.",
+            url: "https://github.com/aitalshashank2/ArxivAppBackend-Pro"
         }
     ]
 

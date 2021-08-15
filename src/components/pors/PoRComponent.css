@@ -1,0 +1,102 @@
+.por-container {
+    min-height: 100vh;
+}
+
+.por-container-margin {
+    margin: 70px;
+}
+
+.por-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.por-list > .por-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    background-color: #101010;
+    cursor: pointer;
+    margin: 20px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+}
+
+.por-list > .por-card > .front {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.por-list > .por-card > .front > .image {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.por-list > .por-card > .front > .image > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.por-list > .por-card > .front > .organization {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    width: calc(100% - 20px);
+    text-align: center;
+    padding: 10px;
+}
+
+.por-list > .por-card > .front > .designation {
+    font-weight: 700;
+    color: #8C869E;
+    font-size: 14px;
+    line-height: 17px;
+    width: calc(100% - 20px);
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.por-list > .por-card > .description {
+    display: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 24px;
+    width: 100%;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.por-list > .por-card:hover {
+    transform: rotateY(180deg);
+}
+
+@media only screen and (max-width: 900px) {
+    .por-list > .por-card > .title {
+        font-size: 20px;
+    }
+
+    .por-list > .por-card > .description {
+        font-size: 14px;
+    }
+}
