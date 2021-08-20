@@ -1,0 +1,97 @@
+.aae-container {
+    min-height: 100vh;
+    margin: 50px 0 50px 0;
+}
+
+.aae-container-grid {
+    width: 100%;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
+
+#aae-section-left {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#aae-section-right {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.aae-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 50px 0;
+}
+
+.aae-section > .aae-list-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aae-section > .aae-list-container > .aae-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aae-section > .aae-list-container > .aae-list > .card {
+    width: 90%;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    padding: 20px 10px 20px 10px;
+    display: grid;
+    grid-template: 1fr / 1fr 150px;
+}
+
+#aae-section-card-left {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#aae-section-card-right {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.aae-section > .aae-list-container > .aae-list > .card > #aae-section-card-left > .institute {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.aae-section > .aae-list-container > .aae-list > .card > #aae-section-card-left > .degree {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 200;
+    color: #FFFFFF;
+}
+
+.aae-section > .aae-list-container > .aae-list > .card > #aae-section-card-right > .grade {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #E0AF02;
+}
+
+.aae-section > .aae-list-container > .aae-list > .card > #aae-section-card-right > .date {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+}
+
+@media only screen and (max-width: 1000px) {
+    .aae-container-grid {
+        display: block;
+    }
+
+    .aae-section > .aae-list-container > .aae-list > .card {
+        margin: 20px;
+        grid-template: 1fr / 1fr 100px;
+    }
+
+}
