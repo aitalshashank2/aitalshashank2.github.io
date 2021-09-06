@@ -57,7 +57,7 @@ const ContactMeComponent = () => {
                         }
                     </div>
                     <div className="credits">
-                        Designed by Nikita Tripathy
+                        Designed by Nikita Tripathi
                     </div>
                     <div className="credits">
                         Developed and maintained by Shashank Aital
