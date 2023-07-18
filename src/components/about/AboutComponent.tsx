@@ -34,7 +34,7 @@ const AboutComponent = () => {
                                 <div className="aboutDescription">
                                     An inquisitive computer scientist (in the making), exploring the world of computer science and engineering.
                                 </div>
-                                <a href="/Shashank_Resume.pdf" className="aboutResume">Checkout my Resume</a>
+                                {/* <a href="/Shashank_Resume.pdf" className="aboutResume">Checkout my Resume</a> */}
                             </div>
                         </div>
                     </div>
